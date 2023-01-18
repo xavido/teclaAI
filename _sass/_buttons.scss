@@ -1,0 +1,97 @@
+/* Button style */
+.btn {
+  font-size: 22px;
+  font-family: $secondary-font;
+  text-transform: capitalize;
+  padding: 16px 44px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 0;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+  //margin: 0 1rem;
+
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &-sm {
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+
+  &-xs {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+}
+
+.btn-primary {
+  background: $primary-color;
+  color: $white !important;
+
+  a {
+    color: $white !important;
+
+  }
+  &:active {
+    background: lighten($color: $primary-color, $amount: 10) !important;
+  }
+
+  &:hover {
+    background: lighten($color: $primary-color, $amount: 10);
+  }
+
+  &.focus,
+  &.active {
+    background: lighten($color: $primary-color, $amount: 10) !important;
+    box-shadow: none !important;
+  }
+}
+
+.btn-primary-resource {
+  &::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASUlEQVQoU5WQwQ4AIAhC4/8/2rJmQ5NDHuUNBhjizMxYwvMAEABrGwSJHeS/FkxOwGGqY4UiIYEKaqO7BO8gy3Cpf1CNfous+SZoSE/7IpEx6wAAAABJRU5ErkJggg==);
+    margin: -10px -3px -10px 7px;
+    color: black !important;
+  }
+
+  background: $primary-color;
+  color: $white !important;
+
+  a {
+    color: $white !important;
+
+  }
+  &:active {
+    background: lighten($color: $primary-color, $amount: 10) !important;
+  }
+
+  &:hover {
+    background: lighten($color: $primary-color, $amount: 10);
+  }
+
+  &.focus,
+  &.active {
+    background: lighten($color: $primary-color, $amount: 10) !important;
+    box-shadow: none !important;
+  }
+}
+
+
+.btn-transparent {
+  background: transparent;
+  color: $primary-color;
+  font-weight: bold;
+
+  &:active,
+  &:hover {
+    color: $primary-color;
+  }
+}

@@ -1,0 +1,465 @@
+#-------------------------------
+# General Site Settings
+
+title: Dancing with AI - A Curriculum on Designing Interactive AI Systems
+logo: logo.png
+email: tbd@mit.edu
+phone: TBD
+address: TBD
+
+menu:
+- {name: Curriculum, link: '/curriculum'}
+- {name: About, link: '/about'}
+- {name: open Poseblocks!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
+
+create-base-url: https://mitmedialab.github.io/prg-extension-boilerplate/create/
+projects-base-url: https://dancingwithai.media.mit.edu/projects/
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Dancing <br> with AI <br> <font size=6>Designing Interactive AI Systems</font>
+
+social:
+#- {icon: "ti-facebook", link: "#"}
+#- {icon: "ti-instagram", link: "#"}
+#- {icon: "ti-dribbble", link: "#"}
+#- {icon: "ti-twitter", link: "#"}
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  A middle school project-based curriculum about making interactive, movement-focused AI systems.
+
+#  Physical movement is one of the most engaging ways to interact with AI systems, but it’s rare today to see motion integrated with K-12 AI curricula. Beyond that, many middle schoolers have passionate interests in dance, art, physical movement in sports, and video games that involve physical motion (Beat Saber, Just Dance) which aren’t easy to build on in the typical creative learning environments found in classrooms. There is an exciting opportunity to use body movement as an entryway to teaching interesting, less-explored concepts in AI, particularly through active learning by having students design interactions with AI, explore different representations of data, and train image- and pose-recognition models.
+
+
+#blurb-btn-link: '/about'
+#blurb-btn-name: know more
+
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# My Team Section
+team:
+  - title : "Jack Schenziwe"
+    image : "assets/images/team/member-1.png"
+    designation : "Project Manager"
+
+  - title : "Julias Carlie"
+    image : "assets/images/team/member-2.png"
+    designation : "Web Developer"
+
+  - title : "John Doe"
+    image : "assets/images/team/member-3.png"
+    designation : "Designer"
+
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+- {name: Web Design, color: '#fdb157', value: '90%'}
+- {name: Logo Design, color: '#9473e6', value: '60%'}
+- {name: After Effects, color: '#bdecf6', value: '80%'}
+- {name: Web App, color: '#ffbcaa', value: '70%'}
+
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Learning Approach
+experience:
+- {name: Flipped Classes, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
+- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
+- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
+- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
+- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
+- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+
+
+#-------------------------------
+# Services Section
+
+services-title: Services
+services:
+- {
+    name: UI Design,
+    icon: ti-palette,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: # Add true to select section
+  }
+- {
+    name: UX Design,
+    icon: ti-vector,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: true # Add true to select section
+  }
+- {
+    name: Interaction Design,
+    icon: ti-panel,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: # Add true to select section
+  }
+
+# Curriculum
+curriculum-items:
+  - title: Hype Day! Intro to AI
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+        - name: "Charades (Printable Cards)"
+          url: "https://docs.google.com/document/d/1Y9Z44-5NDcS5cumYfeTEAw9xtL2DX0D99-r_h9GBZPY/edit"
+        - name: "Charades (Online Generator)"
+          url: "http://movement-charades.glitch.me/"
+
+  - title: Training Image + Pose Models
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/1yUOYuGJSXAIsc-XmoPkpdkpiAML69wmQTaFvT8nV8h8/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/14FzjNUhx6TqavIkkkcACtDI1-W9B85F5h3fq_S9AYfw/edit?usp=sharing"
+    resource_links:
+      - name: "Teachable Machine"
+        url: "https://teachablemachine.withgoogle.com/"
+    images:
+        - image: "cat-laptop-train.gif"
+          caption: "Training a Teachable Machine Model"
+        - image: "dog.gif"
+          caption: "Google <br>Teachable Machine"
+  - title: Posenet and Facial Expressions
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/1sGvP9pR571TgyIOdfW889REXZ0wvL8dRuQCTWvMMvgM/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1oWskcucRLKt2ujWd7Ei7vleu4n-S0Q54o9GXHw6Qqq8/edit?usp=sharing"
+    resource_links:
+        - name: "Coding: Introduction Tutorial"
+          url: "https://mitmedialab.github.io/prg-extension-boilerplate/create/?tutorial=getStarted"
+        - name: "Coding: Imagine a World Tutorial"
+          url: "https://mitmedialab.github.io/prg-extension-boilerplate/create/?tutorial=imagine"
+    projects:
+        - image: "circle-drawing.gif"
+          url: "circle-drawing.sb3"
+        - image: "hand-spray-paint.gif"
+          url: "hand-spray-paint.sb3"
+        - image: "be-a-pirate.gif"
+          url: "Pirate Face.sb3"
+        - image: "EyelashButterfly.gif"
+          url: "EyelashButterfly.sb3"
+        - image: "EmotionJellyfish.gif"
+          url: "EmotionJellyfish.sb3"
+          gfycat: "GlossyUnripeFireant"
+        - image: "bird-mouth.gif"
+          url: "ChirpBird.sb3"
+        - image: "ChirpBirdForever.gif"
+          url: "ChirpBirdForever.sb3"
+          video: "ChirpBirdForever.webm"
+        - image: "NoTrash.gif"
+          url: "NoTrash.sb3"
+        - image: "FingerPuppetShow.gif"
+          url: "FingerPuppetShow.sb3"
+          gfycat: "sophisticatedqueasycrustacean"
+        - image: "ShoulderFriend.gif"
+          url: "ShoulderFriend.sb3"
+          gfycat: "AdvancedInfatuatedDwarfmongoose"
+        - image: "ThumbsUpSpider.gif"
+          url: "ThumbsUpSpider.sb3"
+          gfycat: "DirtyInbornIrrawaddydolphin"
+        - image: "YayGrr.gif"
+          url: "YayGrr.sb3"
+          gfycat: "DirtyInbornIrrawaddydolphin"
+        - image: "RainbowVolleyball.gif"
+          url: "RainbowVolleyball.sb3"
+          gfycat: "yellowishrashatlanticblackgoby"
+        - image: "FingerFoodNinja.gif"
+          url: "FingerFoodNinja.sb3"
+          gfycat: "SlushySophisticatedAlbatross"
+
+  - title: Making Interactive AI Systems
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/1fTjIZ51WpfjdJ0Cd2okxa48X7ButRY_uq53C8Aq5VH4/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1M3D2MtPikfYSaIu6GU8KYtcfJQW4nI_T1HViD4IM9u8/edit?usp=sharing"
+    projects:
+      - image: "WhichBin.gif"
+        url: "WhichBin.sb3"
+        gfycat: "spotlesspleasantburro"
+      - image: "CatcherModel.gif"
+        url: "CatcherModel.sb3"
+        gfycat: "UnselfishMiserableCoelacanth"
+      - image: "SnakeGame.gif"
+        url: "SnakeGame.sb3"
+        gfycat: "ShorttermFriendlyFairybluebird"
+      - image: "shydog.gif"
+        url: "NewShyDog.sb3"
+      - image: "bunnyears.gif"
+        url: "bunnyears.sb3"
+      - image: "nocorona.gif"
+        url: "nocorona.sb3"
+      - image: "posturechecker.gif"
+        url: "posturechecker.sb3"
+
+
+  - title: Capstone Project Bazaar!
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/1RMBkWa80dO1q1Q8iTjUoMuMzSTJQrihJH_45PGvaFZA/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1QzuINyJABgQNbf1tW6jCv4V0hRbynO-nJ6o_43Wt9do/edit?usp=sharing"
+
+
+course-wide-materials:
+  - name: "Student Journal"
+    url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
+  - name: "Scaffolding Cards"
+    url: "https://tinyurl.com/dwai-codingcards"
+  - name: "Standards"
+    url: "https://docs.google.com/document/d/15ba3GB6g1GHxJ40YV0NFAYz__GG2kpIs2OBrZXbKgMw/edit?usp=sharing"
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+# TODO: maybe just collect these from curriculum days? or feature just a few :D
+all-projects:
+  - image: "shydog.gif"
+    url: "NewShyDog.sb3"
+  - image: "circle-drawing.gif"
+    url: "circle-drawing.sb3"
+  - image: "hand-spray-paint.gif"
+    url: "hand-spray-paint.sb3"
+  - image: "be-a-pirate.gif"
+    url: "Pirate Face.sb3"
+  - image: "EmotionJellyfish.gif"
+    url: "EmotionJellyfish.sb3"
+    gfycat: "GlossyUnripeFireant"
+  - image: "bird-mouth.gif"
+    url: "YummyFood.sb3"
+  - image: "YummyFood.gif"
+    url: "ChirpBirdForever.sb3"
+    video: "ChirpBirdForever.webm"
+  - image: "EyelashButterfly.gif"
+    url: "EyelashButterfly.sb3"
+  - image: "NoTrash.gif"
+    url: "NoTrash.sb3"
+    gfycat: "rawdampcob"
+  - image: "FingerPuppetShow.gif"
+    url: "FingerPuppetShow.sb3"
+    gfycat: "sophisticatedqueasycrustacean"
+  - image: "WhichBin.gif"
+    url: "WhichBin.sb3"
+    gfycat: "spotlesspleasantburro"
+  - image: "CatcherModel.gif"
+    url: "CatcherModel.sb3"
+    gfycat: "UnselfishMiserableCoelacanth"
+  - image: "SnakeGame.gif"
+    url: "SnakeGame.sb3"
+    gfycat: "ShorttermFriendlyFairybluebird"
+  - image: "ShoulderFriend.gif"
+    url: "ShoulderFriend.sb3"
+    gfycat: "AdvancedInfatuatedDwarfmongoose"
+  - image: "MyMask.gif"
+    url: "MyMask.sb3"
+    gfycat: "DirtyInbornIrrawaddydolphin"
+  - image: "YayGrr.gif"
+    url: "YayGrr.sb3"
+    gfycat: "DirtyInbornIrrawaddydolphin"
+  - image: "RainbowVolleyball.gif"
+    url: "RainbowVolleyball.sb3"
+    gfycat: "yellowishrashatlanticblackgoby"
+  - image: "bunnyears.gif"
+    url: "bunnyears.sb3"
+  - image: "nocorona.gif"
+    url: "nocorona.sb3"
+  - image: "posturechecker.gif"
+    url: "posturechecker.sb3"
+  - image: "FingerFoodNinja.gif"
+    url: "FingerFoodNinja.sb3"
+    gfycat: "SlushySophisticatedAlbatross"
+
+portfolio-home-items:
+  - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
+    url: "#"
+  - image : "assets/images/dancing-with-ai/jenna-dog-hide.gif"
+    url: "#"
+  - image : "assets/images/dancing-with-ai/emotion-face.png"
+    url: "#"
+#
+#  - image : "assets/images/dancing-with-ai/spray-paint-face.png"
+#    url: "#"
+
+
+# Portfolio Page
+portfolio-label:
+- {
+    title : "UI/UX Design",
+    type : "design"
+  }
+- {
+    title : "BRANDING",
+    type : "branding"
+  }
+- {
+    title : "ILLUSTRATION",
+    type : "illustration"
+  }
+
+portfolio-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+     - type: "design"
+     - type: "illustration"
+
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image : "assets/images/portfolio/item-6.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-8.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "illustration"
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-7.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation : "CEO, Funder"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: steve.fruits@email.com

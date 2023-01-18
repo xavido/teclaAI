@@ -1,0 +1,95 @@
+---
+layout: page
+title: Teaching Materials
+---
+
+<!--
+
+Global Materials
+- Student Journals
+- Teacher Script (all days)
+
+Daily Materials:
+* Day 1
+- Slide
+- Teacher Script
+- Sample Projects:
+[ ] [ ]
+- Other Printable Materials
+
+* Day 2
+
+* Day 3
+
+
+-->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <img src="{{ site.baseurl }}/assets/images/dancing-with-ai/curriculum-overview.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h3 class="section-title">Course-Wide Materials</h3>
+        <ul class="font-secondary paragraph-lg" style="list-style-type: circle;">
+          {% for item in site.data.settings.course-wide-materials %}
+          <div class="btn btn-primary font-tertiary btn-sm mb-4"><a href="{{item.url}}">{{item.name}}</a></div>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    {% for item in site.data.settings.curriculum-items %}
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h3 class="section-title">Day {{forloop.index}}: {{item.title}}</h3>
+        <ul class="font-secondary paragraph-lg text-center" style="list-style-type: circle;">
+          {% for link-item in item.links %}
+          <div class="btn btn-primary font-tertiary btn-sm mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>
+          {% endfor %}
+          {% if item.resource_links %}
+          <div class="mb-4"></div>
+          {% endif %}
+          {% for link-item in item.resource_links %}
+          <div class="btn btn-primary-resource font-tertiary btn-xs mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>
+          {% endfor %}
+          <div class="mb-4"></div>
+          <div class="row shuffle-wrapper text-center">
+            {% for item in item.images %}
+            <div class="col-lg-4 col-6 mb-4 shuffle-item">
+              <div class="position-relative rounded hover-wrapper">
+                <img src="{{ site.baseurl }}/projects/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+                <div class="hover-overlay">
+                  <div class="hover-content text-white">
+                    {{item.caption}}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+            {% for item in item.projects %}
+            <div class="col-lg-4 col-6 mb-4 shuffle-item">
+              <div class="position-relative rounded hover-wrapper">
+                <!--          <video type="video/webm" src="{{ site.baseurl }}/projects/{{ item.video }}" autoplay loop muted playsinline class="img-fluid rounded w-100 d-block">-->
+                <!--          </video>-->
+                <img src="{{ site.baseurl }}/projects/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+                <div class="hover-overlay">
+                  <div class="hover-content">
+                    <a class="btn btn-primary btn-sm mb-3" href="{{site.data.settings.create-base-url}}?project={{site.data.settings.projects-base-url}}{{ item.url }}">Open project!</a>
+                    <br>
+                    <a class="btn btn-primary btn-sm" href="{{site.data.settings.projects-base-url}}{{ item.url }}">Download</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
